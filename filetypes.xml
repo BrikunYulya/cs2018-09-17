@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="VERSION-2.18.0-universal-mavericks" type="JAVA" />
       <mapping pattern="PortableGit (password  it-academy).exe" type="PLAIN_TEXT" />
+      <mapping ext="dmg" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
