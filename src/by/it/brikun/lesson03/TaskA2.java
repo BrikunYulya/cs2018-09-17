@@ -22,11 +22,12 @@ Lesson 03. Task A2. Стихотворение
 */
 class TaskA2 {
     public static void main(String[] args) {
-        String x="Moe lyubimoe stihotvorenie";
-        String a="U lykomorya dyb zelyoniy";
-        String b="Zlotaya set na dybe tom";
-        String c="I dnem i nochya";
+        String x="Мое любимое стихотворение:";
+        String a="Ах, метель такая, просто черт возьми!";
+        String b="Забивает крышу белыми гвоздьми.";
+        String c="Только мне не страшно, и в моей судьбе";
+        String d="Непутевым сердцем я прибит к тебе.";
         System.out.println(x);
-        System.out.println(a+"\n"+b+"\n"+c);
+        System.out.println(a+"\n"+b+"\n"+c+"\n"+d);
     }
 }
