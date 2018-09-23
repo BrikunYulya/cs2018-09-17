@@ -1,5 +1,8 @@
 package by.it.brikun.lesson02;
 
+
+import java.util.Scanner;
+
 /* Нужно написать программу, которая вводит два числа с клавиатуры
 и 4 раза выводит их сумму с обозначением системы счисления на экран в
 ДЕСЯТИЧНОМ ДВОИЧНОМ ШЕСТНАДЦАТИРИЧНОМ ВОСЬМИРИЧНОМ виде
@@ -14,6 +17,14 @@ HEX:22+1a=3c
 OCT:42+32=74
 */
 class TaskC2 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int c=sc.nextInt();
+        int d=sc.nextInt();
+        System.out.println("DEC:"+c+"+"+d+"="+(c+d));
+
+
+    }
 
 
 }
