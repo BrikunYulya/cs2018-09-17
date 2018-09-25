@@ -25,7 +25,19 @@ package by.it.brikun.lesson04;
  */
 
 
+import java.util.Scanner;
 
 public class TaskB3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int i;
+        int j;
+
+            for (i = 1,j=2;i <= a;i = (i + j),j++) {
+                System.out.print(i + ",");
+            }
+
+    }
 
 }
