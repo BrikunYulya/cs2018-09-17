@@ -8,7 +8,6 @@ package by.it.brikun.lesson02;
 Для автоматической проверки откройте и запустите класс Testing
 */
 
-import com.sun.prism.shader.Solid_ImagePattern_Loader;
 
 class TaskA2 {
     public static void main(String[] args) {
